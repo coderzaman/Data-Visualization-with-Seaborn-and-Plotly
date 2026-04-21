@@ -13,11 +13,13 @@ This project serves as both a tutorial and a reference guide for mastering Pytho
 * **Canvas Sizing:** Understanding how `figsize=(width, height)` calculates the exact inches allocated to each subplot to avoid squished graphs.
 
 ### 2. Statistical Visualization (Seaborn)
-* **Distributions:** * `sns.countplot()`: Tallying categorical data.
+* **Distributions:**
+  * `sns.countplot()`: Tallying categorical data.
   * KDE (Kernel Density Estimates): Understanding how individual data points stack to create smooth curves.
 * **Aggregations & Confidence:**
   * `sns.barplot()`: Calculating averages and understanding error bars (variance/spread).
-* **Trend Analysis:** * `sns.regplot()` vs `sns.lmplot()`: Single regression trendlines vs. categorized multi-model trendlines.
+* **Trend Analysis:**
+  * `sns.regplot()` vs `sns.lmplot()`: Single regression trendlines vs. categorized multi-model trendlines.
 * **Exploratory Data Analysis (EDA) Power Tools:**
   * `sns.jointplot()`: Deep-diving into the relationship between two variables while analyzing their 1D marginal distributions.
   * `sns.pairplot()`: Generating a massive grid to find hidden correlations across an entire dataset.
